@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table,Modal, ModalHeader } from 'react-bootstrap';
+import { Table,Modal} from 'react-bootstrap';
 import axios from 'axios'
 import { useState,useEffect } from 'react';
 import './products.css'
