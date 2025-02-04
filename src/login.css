@@ -1,0 +1,21 @@
+
+  
+  .eyeicon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust right space to your design */
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 2; /* Ensure the icon appears above other elements */
+  }
+  
+  
+  .invalid-feedback {
+    position: absolute;
+    bottom: -12px; /* Position the error message below the input */
+    font-size: 13px;
+  }
+
+
+  

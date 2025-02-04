@@ -1,0 +1,132 @@
+nav{
+    background-color: rgb(51, 49, 49);
+    color: white;
+    height: 60px;
+}
+
+.right{
+    margin-left: 5px;
+    margin-top:3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.left{
+    margin-top:-16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.productsinstock{
+    background-color: rgb(0, 102, 255);
+    padding: 3px 5px;
+}
+
+.addproducts{
+    background-color: rgb(0, 102, 255); 
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 8px;
+    font-size: 15px;
+}
+
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.search{
+    
+    border-radius: 5px;
+    border: 1px solid  rgb(0, 102, 255);
+    color:  rgb(0, 102, 255);
+    margin-left: 5px;
+
+}
+
+
+
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        height: 50px;
+    } 
+    .left, .right {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .productsinstock {
+        margin-top: 5px;
+        padding: 2px 4px;
+    }
+
+    .addproducts {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    input {
+        width: 150px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .search {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .navitems {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        height: 45px;
+    }
+
+    .right {
+        font-size: 12px;
+    }
+
+    .productsinstock {
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+
+    .addproducts {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    input {
+        width: 130px;
+        padding: 2px;
+    }
+
+    .search {
+        width: 90%;
+    }
+
+    .navitems {
+        display: block;
+        justify-content: flex-start;
+    }
+}
+

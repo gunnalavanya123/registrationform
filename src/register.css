@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.adduser{
+    margin:50px auto;
+    width: 50%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+ 
+}
+
+.adduser h2{
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+.form .adduserform{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+.adduserform .inputgroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   margin-top: 5px;
+
+}
+
+.orgname {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   
+}
+
+.orginput{
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 0px;
+    
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  border: 1px solid #c7ccdb;
+  border-radius: 0.2rem;
+    
+}
+
+.orglabel{
+    position: absolute;
+    background-color: white;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+.adduserform .inputgroup input{
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  border: 1px solid #c7ccdb;
+  border-radius: 0.2rem;
+    
+}
+
+
+
+.adduserform .inputgroup label{
+    position: absolute;
+ 
+  background-color: white;
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+
+
+.inputgroup button{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+
+
+.login{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+
+.login button{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline green;
+    color: green;   
+}
+
+.login p{
+    margin-top: -10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.toggle{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 27px;
+    margin-bottom: 10px;
+}
+
+.toggle:active{
+    background-color: green;
+}
+
+.toggle:focus{
+    background-color: green; 
+}
+
+.but{
+   margin-left: 60px;
+}
+
+
+

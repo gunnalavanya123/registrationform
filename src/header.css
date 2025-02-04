@@ -1,0 +1,46 @@
+.hero{
+    
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 10px;
+    left: 0;
+    top:5px
+}
+.hero ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px   
+}
+
+li {
+    cursor: pointer;
+}
+
+/* li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: green;
+} */
+
+button{
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50px;
+}
+/* 
+button:hover{
+    background-color: green;
+    color: white;
+} */
+
+img{
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 100px;
+}
