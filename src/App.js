@@ -12,10 +12,7 @@ const App = () => {
     <Router>
      
       <CoustomNavbar/>
-      <Products/>
-    
-   
-      
+      <Products/>  
       <Routes>
         <Route path="/" element={<Register />} />
         <Route path="/login" element={<Login />} />
